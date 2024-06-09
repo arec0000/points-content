@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ArticleDashboard",
+  "type": "object",
+  "required": ["blocks"],
+  "additionalProperties": false,
+  "properties": {
+    "blocks": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          { "$ref": "#/definitions/mdx" },
+          { "$ref": "#/definitions/articleEmbed" },
+          { "$ref": "#/definitions/articleCarouselEmbed" }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "mdx": {
+      "title": "Mdx",
+      "type": "object",
+      "required": ["type", "content"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "mdx" },
+        "content": { "type": "string" }
+      }
+    },
+    "articleEmbed": {
+      "title": "ArticleEmbed",
+      "type": "object",
+      "required": ["type", "slug"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "articleEmbed" },
+        "slug": { "type": "string" },
+        "mb": { "$ref": "#/definitions/size" }
+      }
+    },
+    "articleCarouselEmbed": {
+      "title": "articleCarouselEmbed",
+      "type": "object",
+      "required": ["type", "slugs"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "articleCarouselEmbed" },
+        "slugs": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "mb": { "$ref": "#/definitions/size" }
+      }
+    },
+    "textVariant": {
+      "oneOf": [
+        { "const": "pill" },
+        { "const": "menu" },
+        { "const": "button" },
+        { "const": "small" },
+        { "const": "middle" },
+        { "const": "large" },
+        { "const": "h1" },
+        { "const": "h2" },
+        { "const": "h3" },
+        { "const": "h4" }
+      ]
+    },
+    "size": {
+      "oneOf": [
+        { "const": "xs" },
+        { "const": "sm" },
+        { "const": "md" },
+        { "const": "lg" },
+        { "const": "xl" },
+        { "const": "2xl" }
+      ]
+    }
+  }
+}

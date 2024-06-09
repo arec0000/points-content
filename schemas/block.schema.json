@@ -1,0 +1,313 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ContentBlock",
+  "type": "object",
+  "oneOf": [
+    { "$ref": "#/definitions/mdx" },
+    { "$ref": "#/definitions/articleEmbed" },
+    { "$ref": "#/definitions/articleCarouselEmbed" },
+    { "$ref": "#/definitions/form" },
+    { "$ref": "#/definitions/multistepForm" }
+  ],
+  "definitions": {
+    "mdx": {
+      "title": "Mdx",
+      "type": "object",
+      "required": ["type", "content"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "mdx" },
+        "content": { "type": "string" }
+      }
+    },
+    "articleEmbed": {
+      "title": "ArticleEmbed",
+      "type": "object",
+      "required": ["type", "slug"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "articleEmbed" },
+        "slug": { "type": "string" },
+        "mb": { "$ref": "#/definitions/size" }
+      }
+    },
+    "articleCarouselEmbed": {
+      "title": "articleCarouselEmbed",
+      "type": "object",
+      "required": ["type", "slugs"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "articleCarouselEmbed" },
+        "slugs": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "mb": { "$ref": "#/definitions/size" }
+      }
+    },
+    "multistepForm": {
+      "title": "MultistepForm",
+      "type": "object",
+      "required": ["type", "steps", "endpoint"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "multistepForm" },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["schema", "fields", "buttonText"],
+            "additionalProperties": false,
+            "properties": {
+              "schema": { "type": "string" },
+              "title": { "type": "string" },
+              "titleVariant": { "$ref": "#/definitions/textVariant" },
+              "fields": {
+                "type": "array",
+                "items": {
+                  "oneOf": [
+                    { "$ref": "#/definitions/form/definitions/input" },
+                    { "$ref": "#/definitions/form/definitions/phone" },
+                    { "$ref": "#/definitions/form/definitions/textarea" },
+                    { "$ref": "#/definitions/form/definitions/checkbox" },
+                    { "$ref": "#/definitions/form/definitions/radio" },
+                    { "$ref": "#/definitions/form/definitions/number" },
+                    { "$ref": "#/definitions/form/definitions/select" },
+                    { "$ref": "#/definitions/form/definitions/date" },
+                    { "$ref": "#/definitions/form/definitions/errorMessage" }
+                  ]
+                }
+              },
+              "defaultValues": { "type": "object" },
+              "endpoint": { "type": "string" },
+              "gap": { "$ref": "#/definitions/size" },
+              "fieldsGap": { "$ref": "#/definitions/size" },
+              "buttonText": { "type": "string" },
+              "buttonVariant": {
+                "oneOf": [{ "const": "primary" }, { "const": "secondary" }]
+              },
+              "buttonIsFixed": { "type": "boolean" }
+            }
+          }
+        },
+        "endpoint": { "type": "string" },
+        "searchParamKey": { "type": "string" },
+        "scroll": { "type": "boolean" },
+        "showProgress": { "type": "boolean" },
+        "persist": { "type": "boolean" },
+        "persistKey": { "type": "string" },
+        "startProgress": { "type": "number" },
+        "gap": { "$ref": "#/definitions/size" }
+      }
+    },
+    "form": {
+      "title": "Form",
+      "type": "object",
+      "required": ["type", "schema", "fields", "buttonText", "endpoint"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "form" },
+        "schema": { "type": "string" },
+        "title": { "type": "string" },
+        "titleVariant": { "$ref": "#/definitions/textVariant" },
+        "fields": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              { "$ref": "#/definitions/form/definitions/input" },
+              { "$ref": "#/definitions/form/definitions/phone" },
+              { "$ref": "#/definitions/form/definitions/textarea" },
+              { "$ref": "#/definitions/form/definitions/checkbox" },
+              { "$ref": "#/definitions/form/definitions/radio" },
+              { "$ref": "#/definitions/form/definitions/number" },
+              { "$ref": "#/definitions/form/definitions/select" },
+              { "$ref": "#/definitions/form/definitions/date" },
+              { "$ref": "#/definitions/form/definitions/errorMessage" }
+            ]
+          }
+        },
+        "defaultValues": { "type": "object" },
+        "endpoint": { "type": "string" },
+        "gap": { "$ref": "#/definitions/size" },
+        "fieldsGap": { "$ref": "#/definitions/size" },
+        "buttonText": { "type": "string" },
+        "buttonVariant": {
+          "oneOf": [{ "const": "primary" }, { "const": "secondary" }]
+        },
+        "buttonIsFixed": { "type": "boolean" }
+      },
+      "definitions": {
+        "input": {
+          "type": "object",
+          "required": ["type", "name"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "input" },
+            "name": { "type": "string" },
+            "key": { "type": "string" },
+            "hideErrors": { "type": "boolean" },
+            "subfields": { "$ref": "#/definitions/form/properties/fields" },
+            "inputType": {
+              "oneOf": [
+                { "const": "text" },
+                { "const": "email" },
+                { "const": "password" }
+              ]
+            },
+            "placeholder": { "type": "string" },
+            "disabled": { "type": "boolean" }
+          }
+        },
+        "phone": {
+          "type": "object",
+          "required": ["type", "name"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "phone" },
+            "name": { "type": "string" },
+            "key": { "type": "string" },
+            "hideErrors": { "type": "boolean" },
+            "subfields": { "$ref": "#/definitions/form/properties/fields" },
+            "label": { "type": "string" },
+            "disabled": { "type": "boolean" }
+          }
+        },
+        "textarea": {
+          "type": "object",
+          "required": ["type", "name"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "textarea" },
+            "name": { "type": "string" },
+            "key": { "type": "string" },
+            "hideErrors": { "type": "boolean" },
+            "subfields": { "$ref": "#/definitions/form/properties/fields" },
+            "placeholder": { "type": "string" },
+            "disabled": { "type": "boolean" }
+          }
+        },
+        "checkbox": {
+          "type": "object",
+          "required": ["type", "name", "label"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "checkbox" },
+            "name": { "type": "string" },
+            "key": { "type": "string" },
+            "hideErrors": { "type": "boolean" },
+            "subfields": { "$ref": "#/definitions/form/properties/fields" },
+            "label": { "type": "string" },
+            "disabled": { "type": "boolean" }
+          }
+        },
+        "radio": {
+          "type": "object",
+          "required": ["type", "name", "value", "label"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "radio" },
+            "name": { "type": "string" },
+            "key": { "type": "string" },
+            "hideErrors": { "type": "boolean" },
+            "subfields": { "$ref": "#/definitions/form/properties/fields" },
+            "value": { "type": "string" },
+            "label": { "type": "string" },
+            "disabled": { "type": "boolean" }
+          }
+        },
+        "number": {
+          "type": "object",
+          "required": ["type", "name", "label"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "number" },
+            "name": { "type": "string" },
+            "key": { "type": "string" },
+            "hideErrors": { "type": "boolean" },
+            "subfields": { "$ref": "#/definitions/form/properties/fields" },
+            "label": { "type": "string" },
+            "max": { "type": "number" },
+            "min": { "type": "number" },
+            "disabled": { "type": "boolean" }
+          }
+        },
+        "select": {
+          "type": "object",
+          "required": ["type", "name", "options"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "select" },
+            "name": { "type": "string" },
+            "key": { "type": "string" },
+            "hideErrors": { "type": "boolean" },
+            "subfields": { "$ref": "#/definitions/form/properties/fields" },
+            "options": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["value", "label"],
+                "additionalProperties": false,
+                "properties": {
+                  "value": { "type": "string" },
+                  "label": { "type": "string" }
+                }
+              }
+            },
+            "placeholder": { "type": "string" },
+            "disabled": { "type": "boolean" }
+          }
+        },
+        "date": {
+          "type": "object",
+          "required": ["type", "name"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "date" },
+            "name": { "type": "string" },
+            "key": { "type": "string" },
+            "hideErrors": { "type": "boolean" },
+            "subfields": { "$ref": "#/definitions/form/properties/fields" },
+            "placeholder": { "type": "string" },
+            "disabled": { "type": "boolean" }
+          }
+        },
+        "errorMessage": {
+          "type": "object",
+          "required": ["type", "name"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "errorMessage" },
+            "name": { "type": "string" },
+            "key": { "type": "string" },
+            "hideErrors": { "type": "boolean" },
+            "subfields": { "$ref": "#/definitions/form/properties/fields" }
+          }
+        }
+      }
+    },
+    "textVariant": {
+      "oneOf": [
+        { "const": "pill" },
+        { "const": "menu" },
+        { "const": "button" },
+        { "const": "small" },
+        { "const": "middle" },
+        { "const": "large" },
+        { "const": "h1" },
+        { "const": "h2" },
+        { "const": "h3" },
+        { "const": "h4" }
+      ]
+    },
+    "size": {
+      "oneOf": [
+        { "const": "xs" },
+        { "const": "sm" },
+        { "const": "md" },
+        { "const": "lg" },
+        { "const": "xl" },
+        { "const": "2xl" }
+      ]
+    }
+  }
+}

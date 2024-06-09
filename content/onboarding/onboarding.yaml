@@ -1,0 +1,65 @@
+form:
+  persist: true
+  scroll: false
+  showProgress: true
+  startProgress: 0.5
+  steps:
+    - schema: firstStep
+      title: С кем вы переезжаете?
+      gap: 2xl
+      fields:
+        - type: radio
+          name: with-whom
+          value: alone
+          label: Один
+          hideErrors: true
+
+        - type: radio
+          name: with-whom
+          value: closers
+          label: С близкими и/или знакомыми
+          subfields:
+            - type: checkbox
+              name: spouse
+              label: Супруг
+            - type: number
+              name: children
+              label: Дети
+              min: 0
+              max: 5
+            - type: number
+              name: parents
+              label: Родители
+              min: 0
+              max: 2
+            - type: number
+              name: friends
+              label: Друзья
+              min: 0
+              max: 10
+          hideErrors: true
+
+        - type: radio
+          name: with-whom
+          value: company
+          label: С коммерческой компанией (владелец)
+          hideErrors: true
+
+        - type: radio
+          name: with-whom
+          value: other
+          label: У меня другой случай
+          subfields:
+            - type: textarea
+              name: description
+              placeholder: Описание вашего случая
+              defaultValue: ""
+          hideErrors: true
+
+        - type: errorMessage
+          name: with-whom
+
+      defaultValues:
+        with-whom: ""
+
+      buttonText: Далее

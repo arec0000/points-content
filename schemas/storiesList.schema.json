@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "StoriesList",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["steps"],
+    "additionalProperties": false,
+    "properties": {
+      "steps": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "url": { "type": "string" },
+            "poster": { "type": "string" },
+            "alt": { "type": "string" },
+            "mdx": { "type": "string" },
+            "duration": { "type": "number" },
+            "background": { "type": "string" },
+            "overlayBackground": { "type": "string" },
+            "textColor": { "$ref": "#/definitions/color" },
+            "padding": { "type": "string" },
+            "margin": { "type": "string" },
+            "justify": {
+              "oneOf": [
+                { "const": "start" },
+                { "const": "center" },
+                { "const": "end" }
+              ]
+            },
+            "align": {
+              "oneOf": [
+                { "const": "stretch" },
+                { "const": "start" },
+                { "const": "center" },
+                { "const": "end" }
+              ]
+            }
+          }
+        }
+      },
+      "label": { "type": "string" },
+      "labelLines": { "type": "number" },
+      "labelColor": { "$ref": "#/definitions/color" },
+      "loop": { "type": "boolean" },
+      "crossColor": { "$ref": "#/definitions/color" },
+      "textColor": { "$ref": "#/definitions/color" },
+      "posterIndex": { "type": "number" },
+      "duration": { "type": "number" },
+      "background": { "type": "string" },
+      "overlayBackground": { "type": "string" },
+      "padding": { "type": "string" },
+      "margin": { "type": "string" },
+      "justify": {
+        "oneOf": [
+          { "const": "start" },
+          { "const": "center" },
+          { "const": "end" }
+        ]
+      },
+      "align": {
+        "oneOf": [
+          { "const": "stretch" },
+          { "const": "start" },
+          { "const": "center" },
+          { "const": "end" }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "color": {
+      "oneOf": [
+        { "const": "auto" },
+        { "const": "inherit" },
+        { "const": "white" },
+        { "const": "black" },
+        { "const": "gray90" },
+        { "const": "gray70" },
+        { "const": "gray30" },
+        { "const": "gray20" },
+        { "const": "blue" },
+        { "const": "blue30" },
+        { "const": "darkBlue" },
+        { "const": "darkBlue60" },
+        { "const": "darkBlue40" },
+        { "const": "spaceBlue" },
+        { "const": "lightBlue" },
+        { "const": "red" },
+        { "const": "pink" },
+        { "const": "purple" },
+        { "const": "orange" },
+        { "const": "primaryGradient" }
+      ]
+    },
+    "size": {
+      "oneOf": [
+        { "const": "xs" },
+        { "const": "sm" },
+        { "const": "md" },
+        { "const": "lg" },
+        { "const": "xl" },
+        { "const": "2xl" }
+      ]
+    }
+  }
+}

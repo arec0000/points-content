@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Quest",
+  "required": ["title", "subquestGroups"],
+  "additionalProperties": false,
+  "properties": {
+    "title": { "type": "string" },
+    "subquestGroups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "subquests"],
+        "additionalProperties": false,
+        "properties": {
+          "title": { "type": "string" },
+          "subquests": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

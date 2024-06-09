@@ -1,0 +1,208 @@
+- label: Куда поехать?
+  steps:
+    # - url: https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+
+  background: red
+  padding: 20px
+  justify: end
+  textColor: white
+  overlayBackground: "#F1F7FF"
+  loop: true
+- label: Куда поехать?
+  steps:
+    # - url: https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+
+  background: red
+  padding: 20px
+  justify: end
+  textColor: white
+  overlayBackground: "#F1F7FF"
+  loop: true
+- label: Куда поехать?
+  steps:
+    # - url: https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+
+  background: red
+  padding: 20px
+  justify: end
+  textColor: white
+  overlayBackground: "#F1F7FF"
+  loop: true
+- label: Куда поехать?
+  steps:
+    # - url: https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+
+  background: red
+  padding: 20px
+  justify: end
+  textColor: white
+  overlayBackground: "#F1F7FF"
+  loop: true
+- label: Куда поехать?
+  steps:
+    # - url: https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+
+  background: red
+  padding: 20px
+  justify: end
+  textColor: white
+  overlayBackground: "#F1F7FF"
+  loop: true
+- label: Куда поехать?
+  steps:
+    # - url: https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+
+  background: red
+  padding: 20px
+  justify: end
+  textColor: white
+  overlayBackground: "#F1F7FF"
+  loop: true
+- label: Куда поехать?
+  steps:
+    # - url: https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+
+  background: red
+  padding: 20px
+  justify: end
+  textColor: white
+  overlayBackground: "#F1F7FF"
+  loop: true
+- label: Куда поехать?
+  steps:
+    # - url: https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+    - poster: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+      url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      mdx: |
+        ## Заголовок
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+        <span>Текст, какой-то текст</span>
+      duration: 3000
+
+  background: red
+  padding: 20px
+  justify: end
+  textColor: white
+  overlayBackground: "#F1F7FF"
+  loop: true

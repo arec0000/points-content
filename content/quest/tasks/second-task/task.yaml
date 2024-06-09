@@ -1,0 +1,6 @@
+id: fff
+title: Задача 2
+type: attach
+blocks:
+  - type: mdx
+    content: И тут текст

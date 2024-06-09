@@ -1,0 +1,41 @@
+blocks:
+  - type: mdx
+    content: |
+      # Медиа
+
+  - type: articleCarouselEmbed
+    slugs:
+      - first-article
+      - first-article
+      - first-article
+      - first-article
+      - first-article
+      - first-article
+    mb: xl
+
+  - type: articleEmbed
+    slug: first-article
+    mb: xl
+
+  - type: mdx
+    content: |
+      ## Актуальное >
+  - type: articleCarouselEmbed
+    slugs:
+      - first-article
+      - first-article
+      - first-article
+    mb: xl
+
+  - type: mdx
+    content: |
+      ## Переезд >
+  - type: articleCarouselEmbed
+    slugs:
+      - first-article
+      - first-article
+      - first-article
+    mb: xl
+
+  - type: articleEmbed
+    slug: first-article

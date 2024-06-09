@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Subquest",
+  "required": ["title", "tasks"],
+  "additionalProperties": false,
+  "properties": {
+    "title": { "type": "string" },
+    "tasks": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

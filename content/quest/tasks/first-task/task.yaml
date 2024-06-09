@@ -1,0 +1,6 @@
+id: sadsad
+title: Задача
+type: simple
+blocks:
+  - type: mdx
+    content: И тут текст

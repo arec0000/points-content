@@ -1,0 +1,41 @@
+title: Здесь будет чуть сложнее, но дешево и дожди всего 6 дней в году.
+author: Иван Иванов
+publishDate: "21.09.2022"
+tags:
+  - "Переезд"
+  - "Грузия"
+thumbnail:
+  src: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+  # src: /storage/images/1717799514734-4.png
+  alt: fff
+blocks:
+  - type: mdx
+    content: |
+      ### Наверное, каждый учитель мечтал о классе, где были бы только ученики, заинтересованные в учебе. К сожалению, в реальности все иначе.
+
+      1. Наверное, каждый учитель мечтал о классе, где были бы только ученики, заинтересованные в учебе. К сожалению, в реальности все иначе.
+      2. Наверное, каждый учитель мечтал о классе, где были бы только ученики, заинтересованные в учебе. К сожалению, в реальности все иначе.
+
+      <Image
+        src="https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg"
+        description="Тут изображена Черногория"
+        textAlign="start"
+      />
+
+      ### Заголовок
+      <Video url="https://www.youtube.com/watch?v=OevbMiEGOxY&list=RDBkdPRMrGD8I&index=36" description="sdasdsad" />
+
+  - type: multistepForm
+    steps:
+      - schema: schema
+        fields:
+          - type: input
+            name: test
+        buttonText: Отправить
+      - schema: schema.json
+        fields:
+          - type: input
+            name: test
+        buttonText: Завершить
+    endpoint: adasda
+    showProgress: true
