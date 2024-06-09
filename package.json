@@ -2,7 +2,7 @@
   "name": "content",
   "version": "1.0.0",
   "scripts": {
-    "id": "tsx scripts/cuid ./example"
+    "id": "tsx scripts/cuid ./content"
   },
   "license": "ISC",
   "devDependencies": {
