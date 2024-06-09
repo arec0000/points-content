@@ -5,9 +5,11 @@
       # alt: asdsad
       mdx: |
         # Текст
+
       overlayBackground: blue
       background: red
       textColor: spaceBlue
       margin: 50px
       padding: 50px
       justify: end
+      duration: 1000
