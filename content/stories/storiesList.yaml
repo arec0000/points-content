@@ -1,3 +1,9 @@
 - label: Текст
   steps:
-    - url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+    - # url: https://assets.mixkit.co/videos/preview/mixkit-man-dancing-under-changing-lights-1240-large.mp4
+      # poster: assdasdasd
+      # alt: asdsad
+      mdx: |
+        # Текст
+      overlayBackground: blue
+      background: red
