@@ -8,3 +8,5 @@
       overlayBackground: blue
       background: red
       textColor: spaceBlue
+      margin: 50px
+      padding: 50px
