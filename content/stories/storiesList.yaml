@@ -5,5 +5,5 @@
         /storage/images/muzhchina-binokl-chemodany.png
         # alt: здесь карточки в духе проелятых либералов
       margin: 100px
-
+      padding: 30px
       duration: 3000
