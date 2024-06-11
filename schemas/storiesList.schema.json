@@ -23,6 +23,7 @@
             "textColor": { "$ref": "#/definitions/color" },
             "padding": { "type": "string" },
             "margin": { "type": "string" },
+            "maxWidth": { "$ref": "#/definitions/size" },
             "justify": {
               "oneOf": [
                 { "const": "start" },
@@ -53,6 +54,7 @@
       "overlayBackground": { "type": "string" },
       "padding": { "type": "string" },
       "margin": { "type": "string" },
+      "maxWidth": { "$ref": "#/definitions/size" },
       "justify": {
         "oneOf": [
           { "const": "start" },

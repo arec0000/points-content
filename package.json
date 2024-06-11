@@ -2,14 +2,15 @@
   "name": "content",
   "version": "1.0.0",
   "scripts": {
-    "id": "tsx scripts/cuid ./content"
+    "id": "tsx scripts/cuid ./content",
+    "schemas": "tsx scripts/uploadSchemas https://raw.githubusercontent.com/arec0000/points-schemas/main/schemas/ ./schemas"
   },
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.13",
-    "tsx": "^4.11.0",
-    "typescript": "^5.4.5",
     "chokidar": "^3.6.0",
-    "cuid": "^3.0.0"
+    "cuid": "^3.0.0",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
   }
 }
