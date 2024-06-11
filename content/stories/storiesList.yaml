@@ -6,5 +6,12 @@
         # alt: здесь карточки в духе проелятых либералов
       margin: 100px
       padding: 30px
-      overlayBackground: "primaryGradient"
+      duration: 3000
+    - poster: /storage/images/2
+      margin: 100px
+      padding: 30px
+      duration: 3000
+    - poster: /storage/images/3
+      margin: 100px
+      padding: 30px
       duration: 3000
