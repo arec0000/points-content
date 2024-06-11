@@ -1,17 +1,21 @@
 - label: Релокация это...
   steps:
-    - # url: https://points-demo.ru/console/browser/images/muzhchina-binokl-chemodany.png
+    - url: https://points-demo.ru/console/browser/images/muzhchina-binokl-chemodany.png
       poster:
         /storage/images/muzhchina-binokl-chemodany.png
         # alt: здесь карточки в духе проелятых либералов
       margin: 100px
       padding: 30px
       duration: 3000
-    - poster: /storage/images/2
+
+    - url: https://points-demo.ru/console/browser/images/2.png
+        /storage/images/2
       margin: 100px
       padding: 30px
       duration: 3000
-    - poster: /storage/images/3
+
+    - url: https://points-demo.ru/console/browser/images/3.png
+        /storage/images/3
       margin: 100px
       padding: 30px
       duration: 3000
