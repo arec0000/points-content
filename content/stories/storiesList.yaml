@@ -19,3 +19,4 @@
       margin: 100px
       padding: 30px
       duration: 3000
+  loop: true
