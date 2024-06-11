@@ -1,7 +1,7 @@
 - label: Релокация это...
   steps:
     # 1 шаг
-    - poster: /storage/images/muzhchina-binokl-chemodany.png
+    - poster: /storage/images/muzhchina-binokl-chemodany2.png
       alt: здесь карточки в духе проклятых либералов
       margin: 100px
       padding: 30px
