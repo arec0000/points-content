@@ -5,15 +5,18 @@
       alt: здесь карточки в духе проклятых либералов
       margin: 100px
       padding: 30px
+      overlayBackground: rgba(255,255,255,0.5);
       duration: 3000
     # 2 шаг
     - poster: /storage/images/2.png
       margin: 100px
       padding: 30px
+      overlayBackground: rgba(255,255,255,0.5);
       duration: 3000
     # 3 шаг
     - poster: /storage/images/3.png
       margin: 100px
       padding: 30px
+      overlayBackground: rgba(255,255,255,0.5);
       duration: 3000
   loop: true
