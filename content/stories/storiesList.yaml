@@ -9,13 +9,13 @@
       duration: 3000
 
     - url: https://points-demo.ru/console/browser/images/2.png
-        /storage/images/2
+        /storage/images/2.png
       margin: 100px
       padding: 30px
       duration: 3000
 
     - url: https://points-demo.ru/console/browser/images/3.png
-        /storage/images/3
+        /storage/images/3.png
       margin: 100px
       padding: 30px
       duration: 3000
