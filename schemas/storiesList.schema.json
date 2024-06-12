@@ -15,6 +15,15 @@
           "properties": {
             "video": { "type": "string" },
             "poster": { "type": "string" },
+            "objectPosition": {
+              "type": "object",
+              "required": ["x", "y"],
+              "additionalProperties": false,
+              "properties": {
+                "x": { "enum": ["left", "center", "right"] },
+                "y": { "enum": ["top", "center", "bottom"] }
+              }
+            },
             "alt": { "type": "string" },
             "mdx": { "type": "string" },
             "duration": { "type": "number" },
@@ -58,6 +67,15 @@
             "type": "string",
             "description": "Цвет активной части прогресса, по умолчанию белый"
           }
+        }
+      },
+      "objectPosition": {
+        "type": "object",
+        "required": ["x", "y"],
+        "additionalProperties": false,
+        "properties": {
+          "x": { "enum": ["left", "center", "right"] },
+          "y": { "enum": ["top", "center", "bottom"] }
         }
       },
       "loop": { "type": "boolean" },
