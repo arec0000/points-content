@@ -4,7 +4,6 @@
     # 1 шаг
     - poster: /storage/images/muzhchina-binokl-chemodany.png
       alt: здесь карточки в духе проклятых либералов
-      # на оверлей просто заглушку поставил, в лице нерабочего ргба у меня просто была надежда плак-плак
       objectPosition:
         x: center
         y: center
@@ -23,11 +22,14 @@
 - card:
     label: Цена на питание
   steps:
-    # 1 шаг бтв как бля ручками выбрать какую часть картинки показывать а какую обрезать а то он малясь не то делает? Сыро но я спать уже иду. Увидимся утром
+    # Вступление
+    - video: /storage/images/starter.mp4
+      mdx: Сколько стоит поесть на популярных направлениях
+      textColor: white
+    # 1 шаг
     - poster: /storage/images/photo_1.jpg
       alt: Картинки цены вкусностей, вам не понять и не увидеть
       margin: 100px
-
       objectPosition:
         x: left
         y: center
@@ -36,7 +38,6 @@
     # 2 шаг
     - poster: /storage/images/photo_2.jpg
       margin: 100px
-
       objectPosition:
         x: left
         y: center
@@ -45,7 +46,6 @@
     # 3 шаг
     - poster: /storage/images/photo_3.jpg
       margin: 100px
-
       objectPosition:
         x: left
         y: center
@@ -54,7 +54,6 @@
     # 4 шаг
     - poster: /storage/images/photo_4.jpg
       margin: 100px
-
       objectPosition:
         x: left
         y: center
@@ -63,7 +62,6 @@
       # 5 шаг
     - poster: /storage/images/photo_5.jpg
       margin: 100px
-
       objectPosition:
         x: left
         y: center
@@ -72,7 +70,6 @@
       # 6 шаг
     - poster: /storage/images/photo_6.jpg
       margin: 100px
-
       objectPosition:
         x: left
         y: center
@@ -81,7 +78,6 @@
       # 7 шаг
     - poster: /storage/images/photo_7.jpg
       margin: 100px
-
       objectPosition:
         x: left
         y: center
@@ -90,7 +86,6 @@
       # 8 шаг
     - poster: /storage/images/photo_8.jpg
       margin: 100px
-
       objectPosition:
         x: left
         y: center
@@ -99,7 +94,6 @@
       # 9 шаг
     - poster: /storage/images/photo_9.jpg
       margin: 100px
-
       objectPosition:
         x: left
         y: center
