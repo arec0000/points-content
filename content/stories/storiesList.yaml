@@ -2,7 +2,7 @@
     label: Релокация это...
   steps:
     # 1 шаг
-    - poster: /storage/images/muzhchina-binokl-chemodany2.png
+    - poster: /storage/images/muzhchina-binokl-chemodany.png
       alt: здесь карточки в духе проклятых либералов
       # на оверлей просто заглушку поставил, в лице нерабочего ргба у меня просто была надежда плак-плак
       overlayBackground: rgba(255,255,255,0.5)
