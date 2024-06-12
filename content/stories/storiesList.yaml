@@ -78,7 +78,7 @@
 - label: видеотест
   steps:
     # заглушка просто хочу проверить видео
-    - url: https://www.youtube.com/watch?v=RkTibALwfNg
+    - url: Luke, Did I Ever Tell You About Ahsoka Tano_.mp4
       alt: better not see it
       maxWidth: lg
       duration: 74000
