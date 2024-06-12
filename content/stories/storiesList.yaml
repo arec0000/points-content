@@ -24,7 +24,9 @@
   steps:
     # Вступление
     - video: /storage/images/starter.mp4
-      mdx: Сколько стоит поесть на популярных направлениях
+      mdx: |
+        Сколько стоит поесть на популярных направлениях
+        Часть 1
       textColor: white
     # 1 шаг
     - poster: /storage/images/photo_1.jpg
