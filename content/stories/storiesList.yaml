@@ -24,7 +24,7 @@
     - poster: /storage/images/photo_1.jpg
       alt: Картинки цены вкусностей, вам не понять и не увидеть
       margin: 100px
-      maxWidth: lg
+
       objectPosition:
         x: left
         y: center
@@ -33,7 +33,7 @@
     # 2 шаг
     - poster: /storage/images/photo_2.jpg
       margin: 100px
-      maxWidth: lg
+
       objectPosition:
         x: left
         y: center
@@ -42,7 +42,7 @@
     # 3 шаг
     - poster: /storage/images/photo_3.jpg
       margin: 100px
-      maxWidth: lg
+
       objectPosition:
         x: left
         y: center
@@ -51,7 +51,7 @@
     # 4 шаг
     - poster: /storage/images/photo_4.jpg
       margin: 100px
-      maxWidth: lg
+
       objectPosition:
         x: left
         y: center
@@ -60,7 +60,7 @@
       # 5 шаг
     - poster: /storage/images/photo_5.jpg
       margin: 100px
-      maxWidth: lg
+
       objectPosition:
         x: left
         y: center
@@ -69,7 +69,7 @@
       # 6 шаг
     - poster: /storage/images/photo_6.jpg
       margin: 100px
-      maxWidth: lg
+
       objectPosition:
         x: left
         y: center
@@ -78,7 +78,7 @@
       # 7 шаг
     - poster: /storage/images/photo_7.jpg
       margin: 100px
-      maxWidth: lg
+
       objectPosition:
         x: left
         y: center
@@ -87,7 +87,7 @@
       # 8 шаг
     - poster: /storage/images/photo_8.jpg
       margin: 100px
-      maxWidth: lg
+
       objectPosition:
         x: left
         y: center
@@ -96,7 +96,7 @@
       # 9 шаг
     - poster: /storage/images/photo_9.jpg
       margin: 100px
-      maxWidth: lg
+
       objectPosition:
         x: left
         y: center
