@@ -23,10 +23,10 @@
     label: Цена на питание
   steps:
     # Вступление
-    - video: /storage/images/starter.mp4
-      mdx: |
+    - mdx: |
         # Сколько стоит поесть на популярных направлениях
-          Часть 1
+            Часть 1
+      video: /storage/images/starter.mp4
       textColor: white
     # 1 шаг
     - poster: /storage/images/photo_1.jpg
