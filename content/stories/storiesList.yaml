@@ -25,54 +25,81 @@
       alt: Картинки цены вкусностей, вам не понять и не увидеть
       margin: 100px
       maxWidth: lg
+      objectPosition:
+        x: left
+        y: center
       overlayBackground: rgba(255,255,255,0.5)
       duration: 3000
     # 2 шаг
     - poster: /storage/images/photo_2.jpg
       margin: 100px
       maxWidth: lg
+      objectPosition:
+        x: left
+        y: center
       overlayBackground: rgba(255,255,255,0.5)
       duration: 3000
     # 3 шаг
     - poster: /storage/images/photo_3.jpg
       margin: 100px
       maxWidth: lg
+      objectPosition:
+        x: left
+        y: center
       overlayBackground: rgba(255,255,255,0.5)
       duration: 3000
     # 4 шаг
     - poster: /storage/images/photo_4.jpg
       margin: 100px
       maxWidth: lg
+      objectPosition:
+        x: left
+        y: center
       overlayBackground: rgba(255,255,255,0.5)
       duration: 3000
       # 5 шаг
     - poster: /storage/images/photo_5.jpg
       margin: 100px
       maxWidth: lg
+      objectPosition:
+        x: left
+        y: center
       overlayBackground: rgba(255,255,255,0.5)
       duration: 3000
       # 6 шаг
     - poster: /storage/images/photo_6.jpg
       margin: 100px
       maxWidth: lg
+      objectPosition:
+        x: left
+        y: center
       overlayBackground: rgba(255,255,255,0.5)
       duration: 3000
       # 7 шаг
     - poster: /storage/images/photo_7.jpg
       margin: 100px
       maxWidth: lg
+      objectPosition:
+        x: left
+        y: center
       overlayBackground: rgba(255,255,255,0.5)
       duration: 3000
       # 8 шаг
     - poster: /storage/images/photo_8.jpg
       margin: 100px
       maxWidth: lg
+      objectPosition:
+        x: left
+        y: center
       overlayBackground: rgba(255,255,255,0.5)
       duration: 3000
       # 9 шаг
     - poster: /storage/images/photo_9.jpg
       margin: 100px
       maxWidth: lg
+      objectPosition:
+        x: left
+        y: center
       overlayBackground: rgba(255,255,255,0.5)
       duration: 3000
   loop: true
