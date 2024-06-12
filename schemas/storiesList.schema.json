@@ -13,65 +13,63 @@
           "type": "object",
           "additionalProperties": false,
           "properties": {
-            "url": { "type": "string" },
+            "video": { "type": "string" },
             "poster": { "type": "string" },
             "alt": { "type": "string" },
             "mdx": { "type": "string" },
             "duration": { "type": "number" },
             "background": { "type": "string" },
             "overlayBackground": { "type": "string" },
-            "textColor": {
-              "$ref": "#/definitions/textColor"
-            },
+            "textColor": { "$ref": "#/definitions/textColor" },
             "padding": { "type": "string" },
             "margin": { "type": "string" },
             "maxWidth": { "$ref": "#/definitions/size" },
-            "justify": {
-              "oneOf": [
-                { "const": "start" },
-                { "const": "center" },
-                { "const": "end" }
-              ]
-            },
-            "align": {
-              "oneOf": [
-                { "const": "stretch" },
-                { "const": "start" },
-                { "const": "center" },
-                { "const": "end" }
-              ]
-            }
+            "justify": { "enum": ["start", "center", "end"] },
+            "align": { "enum": ["stretch", "start", "center", "end"] }
           }
         }
       },
-      "label": { "type": "string" },
-      "labelLines": { "type": "number" },
-      "labelColor": { "$ref": "#/definitions/color" },
+      "card": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "label": { "type": "string" },
+          "labelLines": { "type": "number" },
+          "labelColor": { "$ref": "#/definitions/color" },
+          "video": { "type": "string" },
+          "poster": { "type": "string" },
+          "background": { "type": "string" }
+        }
+      },
+      "progress": {
+        "type": "object",
+        "additionalProperties": false,
+        "description": "Свойства прогресс бара",
+        "properties": {
+          "height": {
+            "oneOf": [{ "$ref": "#/definitions/size" }, { "const": "xxs" }]
+          },
+          "inactiveColor": {
+            "type": "string",
+            "description": "Цвет неактивной части прогресса, по умолчанию серый"
+          },
+          "activeColor": {
+            "type": "string",
+            "description": "Цвет активной части прогресса, по умолчанию белый"
+          }
+        }
+      },
       "loop": { "type": "boolean" },
       "crossColor": { "$ref": "#/definitions/color" },
       "textColor": { "$ref": "#/definitions/textColor" },
-      "posterIndex": { "type": "number" },
       "duration": { "type": "number" },
       "background": { "type": "string" },
       "overlayBackground": { "type": "string" },
       "padding": { "type": "string" },
       "margin": { "type": "string" },
       "maxWidth": { "$ref": "#/definitions/size" },
-      "justify": {
-        "oneOf": [
-          { "const": "start" },
-          { "const": "center" },
-          { "const": "end" }
-        ]
-      },
-      "align": {
-        "oneOf": [
-          { "const": "stretch" },
-          { "const": "start" },
-          { "const": "center" },
-          { "const": "end" }
-        ]
-      }
+      "justify": { "enum": ["start", "center", "end"] },
+      "align": { "enum": ["stretch", "start", "center", "end"] }
     }
   },
   "definitions": {
@@ -122,15 +120,6 @@
         "orange"
       ]
     },
-    "size": {
-      "oneOf": [
-        { "const": "xs" },
-        { "const": "sm" },
-        { "const": "md" },
-        { "const": "lg" },
-        { "const": "xl" },
-        { "const": "2xl" }
-      ]
-    }
+    "size": { "enum": ["xs", "sm", "md", "lg", "xl", "2xl"] }
   }
 }
