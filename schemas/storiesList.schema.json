@@ -25,7 +25,8 @@
             "margin": { "type": "string" },
             "maxWidth": { "$ref": "#/definitions/size" },
             "justify": { "enum": ["start", "center", "end"] },
-            "align": { "enum": ["stretch", "start", "center", "end"] }
+            "align": { "enum": ["stretch", "start", "center", "end"] },
+            "borderRaius": { "type": "string" }
           }
         }
       },
@@ -69,7 +70,8 @@
       "margin": { "type": "string" },
       "maxWidth": { "$ref": "#/definitions/size" },
       "justify": { "enum": ["start", "center", "end"] },
-      "align": { "enum": ["stretch", "start", "center", "end"] }
+      "align": { "enum": ["stretch", "start", "center", "end"] },
+      "borderRaius": { "type": "string" }
     }
   },
   "definitions": {
