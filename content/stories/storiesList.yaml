@@ -74,3 +74,11 @@
       overlayBackground: rgba(255,255,255,0.5)
       duration: 3000
   loop: true
+
+- label: видеотест
+  steps:
+    # заглушка просто хочу проверить видео
+    - url: https://www.youtube.com/watch?v=RkTibALwfNg
+      alt: better not see it
+      maxWidth: lg
+      duration: 74000
