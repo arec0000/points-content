@@ -24,10 +24,6 @@
 - card:
     label: Цена на питание
   steps:
-    # Вступление
-    - video: /storage/images/starter.mp4
-      mdx: Oh Piyipa
-      textColor: white
     # 1 шаг
     - poster: /storage/images/photo_1.jpg
       alt: Картинки цены вкусностей, вам не понять и не увидеть
