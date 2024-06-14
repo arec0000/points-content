@@ -23,11 +23,10 @@
     label: Цена на питание
   steps:
     # Вступление
-    - mdx: |
-        # Сколько стоит поесть на популярных направлениях
-            Часть 1
-      video: /storage/images/starter.mp4
+    - video: /storage/images/starter.mp4
+      poster: Стоимость поесть на популярных направлениях
       textColor: white
+
     # 1 шаг
     - poster: /storage/images/photo_1.jpg
       alt: Картинки цены вкусностей, вам не понять и не увидеть
