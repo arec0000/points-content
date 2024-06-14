@@ -4,7 +4,6 @@
     # 1 шаг
     - poster: /storage/images/muzhchina-binokl-chemodany.png
       alt: здесь карточки в духе проклятых либералов
-      # на оверлей просто заглушку поставил, в лице нерабочего ргба у меня просто была надежда плак-плак
       objectPosition:
         x: center
         y: center
@@ -19,11 +18,13 @@
       overlayBackground: rgba(255,255,255,0.5)
       duration: 3000
   loop: true
+  overlayBackground: rgba(255,255,255,0.5)
+  duration: 3000
 
 - card:
     label: Цена на питание
   steps:
-    # 1 шаг бтв как бля ручками выбрать какую часть картинки показывать а какую обрезать а то он малясь не то делает? Сыро но я спать уже иду. Увидимся утром
+    # 1 шаг
     - poster: /storage/images/photo_1.jpg
       alt: Картинки цены вкусностей, вам не понять и не увидеть
       margin: 100px
@@ -106,12 +107,3 @@
       overlayBackground: rgba(255,255,255,0.5)
       duration: 3000
   loop: true
-
-- card:
-    label: видеотест
-  steps:
-    # заглушка просто хочу проверить видео
-    - video: Luke, Did I Ever Tell You About Ahsoka Tano_.mp4
-      alt: better not see it
-      maxWidth: lg
-      duration: 74000

@@ -21,9 +21,6 @@ blocks:
         textAlign="start"
       />
 
-      ### Заголовок
-      <Video url="https://www.youtube.com/watch?v=OevbMiEGOxY&list=RDBkdPRMrGD8I&index=36" description="sdasdsad" />
-
   - type: multistepForm
     steps:
       - schema: schema
