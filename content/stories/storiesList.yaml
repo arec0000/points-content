@@ -18,6 +18,8 @@
       overlayBackground: rgba(255,255,255,0.5)
       duration: 3000
   loop: true
+  overlayBackground: rgba(255,255,255,0.5)
+  duration: 3000
 
 - card:
     label: Цена на питание
@@ -26,7 +28,6 @@
     - video: /storage/images/starter.mp4
       poster: Стоимость поесть на популярных направлениях
       textColor: white
-
     # 1 шаг
     - poster: /storage/images/photo_1.jpg
       alt: Картинки цены вкусностей, вам не понять и не увидеть
@@ -101,12 +102,3 @@
       overlayBackground: rgba(255,255,255,0.5)
       duration: 3000
   loop: true
-
-- card:
-    label: видеотест
-  steps:
-    # заглушка просто хочу проверить видео
-    - video: Luke, Did I Ever Tell You About Ahsoka Tano_.mp4
-      alt: better not see it
-      maxWidth: lg
-      duration: 74000
