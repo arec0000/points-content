@@ -20,18 +20,5 @@ blocks:
         description="Тут изображена Черногория"
         textAlign="start"
       />
-
-  - type: multistepForm
-    steps:
-      - schema: schema
-        fields:
-          - type: input
-            name: test
-        buttonText: Отправить
-      - schema: schema.json
-        fields:
-          - type: input
-            name: test
-        buttonText: Завершить
-    endpoint: adasda
-    showProgress: true
+  - type: articleEmbed
+    slug: first-article
