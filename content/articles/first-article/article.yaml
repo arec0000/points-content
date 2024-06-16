@@ -20,5 +20,7 @@ blocks:
         description="Тут изображена Черногория"
         textAlign="start"
       />
+
+      <Video src="https://www.youtube.com/watch?v=HebaUSdszjE" />
   - type: articleEmbed
     slug: first-article
