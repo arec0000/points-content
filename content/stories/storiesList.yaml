@@ -3,12 +3,10 @@
   steps:
     # 1 шаг
     - poster: /storage/images/muzhchina-binokl-chemodany.png
-      video: /storage/images/starter.mp4
       alt: здесь карточки в духе проклятых либералов
       objectPosition:
         x: center
         y: center
-      mdx: sadsadsad
     # 2 шаг
     - poster: /storage/images/2.png
     # 3 шаг
@@ -16,6 +14,7 @@
   loop: true
   overlayBackground: rgba(255,255,255,0.5)
   duration: 3000
+  padding: 10%
   progress:
     activeColor: rgba(245, 98, 145, 0.75)
 
@@ -47,6 +46,7 @@
     y: center
   overlayBackground: rgba(255,255,255,0.5)
   duration: 3000
+  maxWidth: lg
   loop: true
   progress:
     activeColor: rgba(245, 98, 145, 0.75)
