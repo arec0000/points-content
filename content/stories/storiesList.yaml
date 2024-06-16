@@ -3,10 +3,12 @@
   steps:
     # 1 шаг
     - poster: /storage/images/muzhchina-binokl-chemodany.png
+      video: /storage/images/starter.mp4
       alt: здесь карточки в духе проклятых либералов
       objectPosition:
         x: center
         y: center
+      mdx: sadsadsad
     # 2 шаг
     - poster: /storage/images/2.png
     # 3 шаг
