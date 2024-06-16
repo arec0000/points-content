@@ -40,7 +40,7 @@
     - poster: /storage/images/photo_8.jpg
     # 9 шаг
     - poster: /storage/images/photo_9.jpg
-  margin: 100px
+  margin: 10%
   objectPosition:
     x: left
     y: center
