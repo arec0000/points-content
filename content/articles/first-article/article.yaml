@@ -21,17 +21,6 @@ blocks:
         textAlign="start"
       />
 
-  - type: multistepForm
-    steps:
-      - schema: schema
-        fields:
-          - type: input
-            name: test
-        buttonText: Отправить
-      - schema: schema.json
-        fields:
-          - type: input
-            name: test
-        buttonText: Завершить
-    endpoint: adasda
-    showProgress: true
+      <Video url="https://www.youtube.com/watch?v=HebaUSdszjE" />
+  - type: articleEmbed
+    slug: first-article
