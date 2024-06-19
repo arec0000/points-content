@@ -8,11 +8,20 @@
       "type": "string",
       "minLength": 1,
       "errorMessage": "Выберите ответ"
-    },
-    "description": {
-      "type": "string",
-      "minLength": 5,
-      "errorMessage": "Обязательно для заполнения"
+    }
+  },
+  "if": {
+    "properties": {
+      "with-whom": { "const": "other" }
+    }
+  },
+  "then": {
+    "properties": {
+      "description": {
+        "type": "string",
+        "minLength": 5,
+        "errorMessage": "Обязательно для заполнения"
+      }
     }
   }
 }
