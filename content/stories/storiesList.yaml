@@ -23,27 +23,27 @@
   borderRaius: 75px 10px / 40px
 - card:
     label: Цена на питание
-    poster: /storage/images/photo_1.jpg
+    poster: /storage/images/Strany_start.png
   steps:
     # 1 шаг
-    - poster: /storage/images/photo_1.jpg
+    - poster: /storage/images/Strany_start.png
       alt: Картинки цены вкусностей, вам не понять и не увидеть
     # 2 шаг
-    - poster: /storage/images/photo_2.jpg
+    - poster: /storage/images/Strany_back.png
     # 3 шаг
-    - poster: /storage/images/photo_3.jpg
+    - poster: /storage/images/Strany_back.png
     # 4 шаг
-    - poster: /storage/images/photo_4.jpg
+    - poster: /storage/images/Strany_back.png
     # 5 шаг
-    - poster: /storage/images/photo_5.jpg
+    - poster: /storage/images/Strany_back.png
     # 6 шаг
-    - poster: /storage/images/photo_6.jpg
+    - poster: /storage/images/Strany_back.png
     # 7 шаг
-    - poster: /storage/images/photo_7.jpg
+    - poster: /storage/images/Strany_back.png
     # 8 шаг
-    - poster: /storage/images/photo_8.jpg
+    - poster: /storage/images/Strany_back.png
     # 9 шаг
-    - poster: /storage/images/photo_9.jpg
+    - poster: /storage/images/Strany_back.png
   objectPosition:
     x: left
     y: center
@@ -69,7 +69,6 @@
         ### Какие страны принимают карту МИР?
       textColor: white
       align: stretch
-
   loop: true
   overlayBackground: rgba(255,255,255,0.5)
   duration: 3000
