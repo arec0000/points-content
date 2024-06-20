@@ -8,8 +8,6 @@
       objectPosition:
         x: center
         y: center
-      mdx: |
-        ## Текст
       justify: center
     # 2 шаг
     - poster: /storage/images/2.png
