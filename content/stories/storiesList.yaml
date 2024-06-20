@@ -21,6 +21,22 @@
   progress:
     activeColor: rgba(245, 98, 145, 0.75)
   borderRaius: 75px 10px / 40px
+
+- card:
+    label: Астана летом...
+  steps:
+    - video: /storage/images/astana.webm
+      mdx: |
+        <Text style={{ fontSize: '3rem' }}> Чем не причина посетить Казахстан? </Text>
+  loop: true
+  overlayBackground: rgba(255,255,255,0.5)
+  duration: 3000
+  maxWidth: xl
+  padding: 10%
+  progress:
+    activeColor: rgba(245, 98, 145, 0.75)
+  borderRaius: 75px 10px / 40px
+
 - card:
     label: Цена на питание
     poster: /storage/images/Strany_start.png
@@ -227,6 +243,7 @@
   progress:
     activeColor: rgba(245, 98, 145, 0.75)
   borderRaius: 75px 10px / 40px
+
 - card:
     label: Нужен Мир, желательно - весь
     poster: /storage/images/MIR_start.png
