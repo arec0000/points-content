@@ -16,7 +16,7 @@
   loop: true
   overlayBackground: rgba(255,255,255,0.5)
   duration: 3000
-  maxWidth: 35%
+  maxWidth: xl
   padding: 10%
   progress:
     activeColor: rgba(245, 98, 145, 0.75)
@@ -49,7 +49,7 @@
     y: center
   overlayBackground: rgba(255,255,255,0.5)
   duration: 3000
-  maxWidth: 35%
+  maxWidth: xl
   loop: true
   progress:
     activeColor: rgba(245, 98, 145, 0.75)
@@ -72,7 +72,7 @@
   loop: true
   overlayBackground: rgba(255,255,255,0.5)
   duration: 3000
-  maxWidth: 35%
+  maxWidth: xl
   padding: 10%
   progress:
     activeColor: rgba(245, 98, 145, 0.75)
