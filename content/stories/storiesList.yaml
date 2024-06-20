@@ -27,7 +27,7 @@
   steps:
     - video: /storage/images/astana.webm
       mdx: |
-        <Text style={{ fontSize: '3rem' }}>Чем не причина посетить Казахстан?</Text>
+        <Text style={{ fontSize: '2rem' }}>Чем не причина посетить Казахстан?</Text>
   loop: true
   overlayBackground: rgba(255,255,255,0.5)
   duration: 3000
@@ -45,7 +45,7 @@
     - poster: /storage/images/Strany_start.png
       alt: Картинки цены вкусностей, вам не понять и не увидеть
       mdx: |
-        <Text style={{ fontSize: '3rem' }}>Сколько стоит поесть на популярных направлениях</Text>
+        <Text style={{ fontSize: '2rem' }}>Сколько стоит поесть на популярных направлениях</Text>
       textColor: white
       objectPosition:
         x: center
