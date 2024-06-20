@@ -29,7 +29,7 @@
     - poster: /storage/images/Strany_start.png
       alt: Картинки цены вкусностей, вам не понять и не увидеть
       mdx: |
-        ### Сколько стоит поесть на популярных направлениях
+        <Text style={{ fontSize: '2rem' }}>### Сколько стоит поесть на популярных направлениях</Text>
       textColor: white
       objectPosition:
         x: center
