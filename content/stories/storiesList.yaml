@@ -68,6 +68,7 @@
       mdx: |
         ### Какие страны принимают карту МИР?
       textColor: white
+      align: stretch
 
   loop: true
   overlayBackground: rgba(255,255,255,0.5)
