@@ -30,6 +30,11 @@
       alt: Картинки цены вкусностей, вам не понять и не увидеть
       mdx: |
         Сколько стоит поесть на популярных направлениях
+      textColor: white
+      objectPosition:
+        x: center
+        y: center
+      justify: center
     # 2 шаг
     - poster: /storage/images/Strany_back.png
       mdx: |
@@ -51,6 +56,10 @@
         * чай в пакетиках 0,8 €
         * соку 2 л— 1,25 €
       textColor: white
+      objectPosition:
+        x: center
+        y: center
+      justify: center
 
     # 3 шаг
     - poster: /storage/images/Strany_back.png
