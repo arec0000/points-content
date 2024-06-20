@@ -261,6 +261,13 @@
         Какие страны принимают карту МИР?
       textColor: white
       align: stretch
+    # 2 шаг
+    - poster: /storage/images/MM.png
+      alt: карточки про карту мир 2
+      objectPosition:
+        x: center
+        y: center
+      justify: center
   loop: true
   overlayBackground: rgba(255,255,255,0.5)
   duration: 3000
