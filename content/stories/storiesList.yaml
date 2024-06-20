@@ -54,7 +54,8 @@
     # 2 шаг
     - poster: /storage/images/Strany_back.png
       mdx: |
-        <Text style={{ fontSize: '3rem' }}> Цены на продукты в Черногории:
+        <Text style={{ fontSize: '3rem' }}>
+        Цены на продукты в Черногории:
          * мясо, 1 кг - 5,5-7 €
          * сосиски —от 3€
          * печеница (буженина), 1 кг - от 11 €

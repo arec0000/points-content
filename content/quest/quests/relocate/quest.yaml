@@ -1,8 +1,6 @@
 title: Переезд
 subquestGroups:
-  - title: Заголовок группы
+  - title: Подготовка
     subquests:
-      - first-subquest
-  - title: Заголовок группы
-    subquests:
-      - second-subquest
+      - docs
+      - pet
