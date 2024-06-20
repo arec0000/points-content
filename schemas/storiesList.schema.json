@@ -32,7 +32,7 @@
             "textColor": { "$ref": "#/definitions/textColor" },
             "padding": { "type": "string" },
             "margin": { "type": "string" },
-            "maxWidth": { "$ref": "#/definitions/size" },
+            "maxWidth": { "type": "string" },
             "justify": { "enum": ["start", "center", "end"] },
             "align": { "enum": ["stretch", "start", "center", "end"] },
             "borderRaius": { "type": "string" }
@@ -86,7 +86,7 @@
       "overlayBackground": { "type": "string" },
       "padding": { "type": "string" },
       "margin": { "type": "string" },
-      "maxWidth": { "$ref": "#/definitions/size" },
+      "maxWidth": { "type": "string" },
       "justify": { "enum": ["start", "center", "end"] },
       "align": { "enum": ["stretch", "start", "center", "end"] },
       "borderRaius": { "type": "string" }

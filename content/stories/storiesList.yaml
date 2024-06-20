@@ -1,5 +1,6 @@
 - card:
     label: Релокация это...
+    poster: /storage/images/muzhchina-binokl-chemodany.png
   steps:
     # 1 шаг
     - poster: /storage/images/muzhchina-binokl-chemodany.png
@@ -17,12 +18,14 @@
   loop: true
   overlayBackground: rgba(255,255,255,0.5)
   duration: 3000
+  maxWidth: 50%
   padding: 10%
   progress:
     activeColor: rgba(245, 98, 145, 0.75)
   borderRaius: 75px 10px / 40px
 - card:
     label: Цена на питание
+    poster: /storage/images/photo_1.jpg
   steps:
     # 1 шаг
     - poster: /storage/images/photo_1.jpg
@@ -49,7 +52,7 @@
     y: center
   overlayBackground: rgba(255,255,255,0.5)
   duration: 3000
-  maxWidth: lg
+  maxWidth: 50%
   loop: true
   progress:
     activeColor: rgba(245, 98, 145, 0.75)
