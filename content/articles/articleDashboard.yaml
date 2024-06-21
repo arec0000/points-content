@@ -6,7 +6,7 @@ blocks:
   - type: articleCarouselEmbed
     slugs:
       - first-article
-      - first-article
+      - second-article
       - first-article
       - first-article
       - first-article
@@ -23,7 +23,7 @@ blocks:
   - type: articleCarouselEmbed
     slugs:
       - first-article
-      - first-article
+      - second-article
       - first-article
     mb: xl
 
@@ -33,7 +33,7 @@ blocks:
   - type: articleCarouselEmbed
     slugs:
       - first-article
-      - first-article
+      - second-article
       - first-article
     mb: xl
 
