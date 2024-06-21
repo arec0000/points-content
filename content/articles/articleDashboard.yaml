@@ -5,10 +5,10 @@ blocks:
 
   - type: articleCarouselEmbed
     slugs:
-      - first-article
-      - second-article
       - Third-article
+      - second-article
       - Fourth-article
+      - first-article
     mb: xl
 
   - type: articleEmbed
@@ -20,8 +20,8 @@ blocks:
       ## Актуальное >
   - type: articleCarouselEmbed
     slugs:
-      - first-article
       - second-article
+      - first-article
       - Third-article
     mb: xl
 

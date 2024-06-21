@@ -30,6 +30,7 @@
       mdx: |
         <Text style={{ fontSize: '2rem' }}>Чем не причина посетить Казахстан?</Text>
       textColor: white
+      padding: 30px
   loop: true
   overlayBackground: rgba(255,255,255,0.5)
   duration: 3000
@@ -49,6 +50,7 @@
       mdx: |
         <Text style={{ fontSize: '2rem' }}>Сколько стоит поесть на популярных направлениях</Text>
       textColor: white
+      padding: 30px
       objectPosition:
         x: center
         y: center
@@ -76,6 +78,7 @@
             * соку 2 л— 1,25 €
         </Text>
       textColor: white
+      padding: 30px
       objectPosition:
         x: center
         y: center
@@ -98,6 +101,7 @@
             * сибас и камбала, 1 кг -25 €
         </Text>
       textColor: white
+      padding: 30px
       objectPosition:
         x: center
         y: center
@@ -119,6 +123,7 @@
             * натуральный свежевыжатый сок- 2,8 €
         </Text>
       textColor: white
+      padding: 30px
       objectPosition:
         x: center
         y: center
@@ -138,6 +143,7 @@
             * коньяк (виньяк)-от 7 €
         </Text>
       textColor: white
+      padding: 30px
       objectPosition:
         x: center
         y: center
@@ -159,6 +165,7 @@
             * батончик Snickers - 4228 Uzs (0,38 $)
         </Text>
       textColor: white
+      padding: 30px
       objectPosition:
         x: center
         y: center
@@ -183,6 +190,7 @@
             * coca-cola от 6435 UZS (0,57 $)
         </Text>
       textColor: white
+      padding: 30px
       objectPosition:
         x: center
         y: center
@@ -208,6 +216,7 @@
             * творог 1кг - 2,100 kZT (4.50 $)
         </Text>
       textColor: white
+      padding: 30px
       objectPosition:
         x: center
         y: center
@@ -233,6 +242,7 @@
             * кока-кола/пепси 0,33 л - 233 kZT (0.50 $)
         </Text>
       textColor: white
+      padding: 30px
       objectPosition:
         x: center
         y: center
@@ -262,6 +272,7 @@
       mdx: |
         <Text style={{ fontSize: '2rem' }}>Какие страны принимают карту МИР?</Text>
       textColor: white
+      padding: 30px
       align: stretch
     # 2 шаг
     - poster: /storage/images/MM.png
