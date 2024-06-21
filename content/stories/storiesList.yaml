@@ -20,14 +20,16 @@
   padding: 10%
   progress:
     activeColor: rgba(245, 98, 145, 0.75)
-  borderRaius: 75px 10px / 40px
+  borderRaius: 30px
 
 - card:
     label: Астана летом...
+    poster: /storage/images/astana.webm
   steps:
     - video: /storage/images/astana.webm
       mdx: |
         <Text style={{ fontSize: '2rem' }}>Чем не причина посетить Казахстан?</Text>
+      textColor: white
   loop: true
   overlayBackground: rgba(255,255,255,0.5)
   duration: 3000
@@ -35,7 +37,7 @@
   padding: 10%
   progress:
     activeColor: rgba(245, 98, 145, 0.75)
-  borderRaius: 75px 10px / 40px
+  borderRaius: 30px
 
 - card:
     label: Цена на питание
@@ -54,7 +56,7 @@
     # 2 шаг
     - poster: /storage/images/Strany_back.png
       mdx: |
-        <Text style={{ fontSize: '3rem' }}>
+        <Text style={{ fontSize: '2rem' }}>
           Цены на продукты в Черногории:
             * мясо, 1 кг - 5,5-7 €
             * сосиски —от 3€
@@ -81,7 +83,7 @@
     # 3 шаг
     - poster: /storage/images/Strany_back.png
       mdx: |
-        <Text style={{ fontSize: '3rem' }}>
+        <Text style={{ fontSize: '2rem' }}>
           Цены на морепродукты в Черногории:
             * мидии, 1 кг- 2,5 €
             * устрицы, штука - 2 €
@@ -103,7 +105,7 @@
     # 4 шаг
     - poster: /storage/images/Strany_back.png
       mdx: |
-        <Text style={{ fontSize: '3rem' }}>
+        <Text style={{ fontSize: '2rem' }}>
           Цены но еду в кофе и ресторанах Черногории:
             * салот - 4,3 €
             * суп чорба - от 2,5 €
@@ -124,7 +126,7 @@
     # 5 шаг
     - poster: /storage/images/Strany_back.png
       mdx: |
-        <Text style={{ fontSize: '3rem' }}>
+        <Text style={{ fontSize: '2rem' }}>
           Цены на алкогольные напитки в Черногории:
             * черногорское пиво, 0,5 л €
             * импортное пиво, 0,33 л - 1,2 €
@@ -143,7 +145,7 @@
     # 6 шаг
     - poster: /storage/images/Strany_back.png
       mdx: |
-        <Text style={{ fontSize: '3rem' }}>
+        <Text style={{ fontSize: '2rem' }}>
           Цены но продукты в Узбекистане:
             * рис 1 кг - 8282 Uzs (0,74 $)
             * помидоры 1 кг -12695 Uzs (1,13 $)
@@ -164,7 +166,7 @@
     # 7 шаг
     - poster: /storage/images/Strany_back.png
       mdx: |
-        <Text style={{ fontSize: '3rem' }}>
+        <Text style={{ fontSize: '2rem' }}>
           Цены в кофе в Узбекистане:
             * донер —15000 UZS (1,33 $)
             * чизбургер от 8468 Uzs (0,75 $)
@@ -188,7 +190,7 @@
     # 8 шаг
     - poster: /storage/images/Strany_back.png
       mdx: |
-        <Text style={{ fontSize: '3rem' }}>
+        <Text style={{ fontSize: '2rem' }}>
           Цены но продукты в Казахстане:
             * молоко 1 л- 342 (0.73 $)
             * куриная грудка (1 кг) -1,500 (3.30$)
@@ -213,7 +215,7 @@
     # 9 шаг
     - poster: /storage/images/Strany_back.png
       mdx: |
-        <Text style={{ fontSize: '3rem' }}>
+        <Text style={{ fontSize: '2rem' }}>
           Цены в кафе в Казахстане:
             * Пончик -1300 kZT (2.77 $)
             * чизбургер - 600 kZT (1.28 $)
@@ -244,7 +246,7 @@
   loop: true
   progress:
     activeColor: rgba(245, 98, 145, 0.75)
-  borderRaius: 75px 10px / 40px
+  borderRaius: 30px
 
 - card:
     label: Нужен Мир, желательно - весь
@@ -258,7 +260,7 @@
         y: center
       justify: center
       mdx: |
-        Какие страны принимают карту МИР?
+        <Text style={{ fontSize: '2rem' }}>Какие страны принимают карту МИР?</Text>
       textColor: white
       align: stretch
     # 2 шаг
@@ -275,4 +277,4 @@
   padding: 10%
   progress:
     activeColor: rgba(245, 98, 145, 0.75)
-  borderRaius: 75px 10px / 40px
+  borderRaius: 30px
