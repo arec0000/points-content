@@ -5,8 +5,6 @@ thumbnail:
   alt: fff
 ways:
   - first
-  - first
-  - first
 blocks:
   - type: mdx
     content: |
