@@ -7,7 +7,7 @@ blocks:
     slugs:
       - first-article
       - second-article
-      - first-article
+      - Third-article
       - first-article
       - first-article
       - first-article
@@ -24,7 +24,7 @@ blocks:
     slugs:
       - first-article
       - second-article
-      - first-article
+      - Third-article
     mb: xl
 
   - type: mdx
@@ -34,8 +34,8 @@ blocks:
     slugs:
       - first-article
       - second-article
-      - first-article
+      - Third-article
     mb: xl
 
   - type: articleEmbed
-    slug: first-article
+    slug: Third-article
