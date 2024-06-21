@@ -24,7 +24,7 @@
 
 - card:
     label: Астана летом...
-    poster: /storage/images/astana.webm
+    poster: /storage/images/ast.png
   steps:
     - video: /storage/images/astana.webm
       mdx: |
