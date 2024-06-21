@@ -1,0 +1,28 @@
+id: asdasd
+title: Грузия
+thumbnail:
+  src: https://sportishka.com/uploads/posts/2022-02/1645512560_12-sportishka-com-p-montenegro-chernogoriya-turizm-krasivo-fot-12.jpg
+  alt: fff
+ways:
+  - first
+  - first
+  - first
+blocks:
+  - type: mdx
+    content: |
+      Небольшое государство на Кавказе
+
+      Уютные города с медленным темпом жизни, близость природы, мягкий климат и довольно простые правила легализации.
+
+      Стоимость жизни – 1000-1200€ в месяц на человека с учётом аренды жилья.
+info:
+  - label: Перелет
+    value: 800-1 200 $
+  - label: Еда на месяц
+    value: 300-1 000 $
+  - label: Жилье на месяц
+    value: 400-1 000 $
+  - label: Погода зима/лето
+    value: +7/+30
+  - label: Легализация
+    value: от 450 $
