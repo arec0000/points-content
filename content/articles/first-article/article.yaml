@@ -42,9 +42,6 @@ blocks:
       Похожие статьи:
   - type: articleCarouselEmbed
     slugs:
-      - first-article
-      - first-article
-      - first-article
-      - first-article
-      - first-article
-      - first-article
+      - Fourth-article
+      - second-article
+      - Third-article

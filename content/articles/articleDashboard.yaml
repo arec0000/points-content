@@ -8,9 +8,7 @@ blocks:
       - first-article
       - second-article
       - Third-article
-      - first-article
-      - first-article
-      - first-article
+      - Fourth-article
     mb: xl
 
   - type: articleEmbed
