@@ -31,7 +31,6 @@
         <Text style={{ fontSize: '2rem' }}>Чем не причина посетить Казахстан?</Text>
       textColor: white
       padding: 30px
-  loop: true
   overlayBackground: rgba(255,255,255,0.5)
   duration: 3000
   maxWidth: xl
