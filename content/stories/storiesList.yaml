@@ -1,6 +1,6 @@
 - card:
     label: Релокация это...
-    poster: /storage/images/muzhchina-binokl-chemodany.png
+    poster: /storage/images/ddf.png
   steps:
     # 1 шаг
     - poster: /storage/images/muzhchina-binokl-chemodany.png
@@ -41,7 +41,7 @@
 
 - card:
     label: Цена на питание
-    poster: /storage/images/Strany_start.png
+    poster: /storage/images/pnts.png
   steps:
     # 1 шаг
     - poster: /storage/images/Strany_start.png
@@ -250,7 +250,7 @@
 
 - card:
     label: Нужен Мир, желательно - весь
-    poster: /storage/images/MIR_start.png
+    poster: /storage/images/png.png
   steps:
     # 1 шаг
     - poster: /storage/images/MIR_start.png
