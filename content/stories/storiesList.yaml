@@ -31,6 +31,11 @@
         <Text style={{ fontSize: '2rem' }}>Чем не причина посетить Казахстан?</Text>
       textColor: white
       padding: 30px
+    - video: /storage/images/astana2.mp4
+      mdx: |
+        <Text style={{ fontSize: '2rem' }}>Чем не причина посетить Казахстан?</Text>
+      textColor: white
+      padding: 30px
   overlayBackground: rgba(255,255,255,0.5)
   duration: 3000
   maxWidth: xl
