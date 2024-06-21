@@ -1,6 +1,6 @@
 - card:
     label: Релокация это...
-    poster: /storage/images/obvodka2.png
+    poster: /storage/images/card1.png
   steps:
     # 1 шаг
     - poster: /storage/images/muzhchina-binokl-chemodany.png
