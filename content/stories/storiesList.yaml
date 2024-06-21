@@ -37,6 +37,7 @@
       textColor: white
       padding: 30px
   overlayBackground: rgba(255,255,255,0.5)
+  loop: true
   duration: 3000
   maxWidth: xl
   padding: 10%
